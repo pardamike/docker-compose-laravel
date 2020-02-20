@@ -8,6 +8,13 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 
 Open up your browser of choice to [http://localhost:8080](http://localhost:8080) and you should see your Laravel app running as intended. 
 
+To set up Laravel, run:
+
+```
+rm -R src/public
+composer create-project laravel/laravel .
+```
+
 Containers created and their ports are as follows:
 
 - **nginx** - `:8080`
