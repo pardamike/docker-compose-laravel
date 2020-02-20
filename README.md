@@ -14,6 +14,7 @@ To set up Laravel, run:
 
 ```
 rm -R src/public
+cd src/
 composer create-project laravel/laravel .
 ```
 
