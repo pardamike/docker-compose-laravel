@@ -1,22 +1,25 @@
+## Prerequisites 
+[Docker](https://docs.docker.com/docker-for-mac/install/)
+[Composer](https://getcomposer.org/)
+
 ## Usage
 
-To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system, and then clone this repository. Add your entire Laravel project to the `src` folder, then open a terminal and from this cloned respository's root run:
-
+Clone this repository, go into the root of this project, and run the following:
 ```
 docker-compose build && docker-compose up
 ```
+*Note* To run Docker in the background, use the `-d` flag when running `docker-compose up`
 
-To run Docker in the background, use the `-d` flag when running `docker-compose up`
+Open up your browser of choice to [http://localhost:8080](http://localhost:8080) and you should see "It works!"
 
-Open up your browser of choice to [http://localhost:8080](http://localhost:8080) and you should see your Laravel app running as intended. 
-
-To set up Laravel, run:
-
+Now set up Laravel, delete the `public` folder and install Laravel into the `src` by running these commands (You do NOT need to stop Docker, you can do this while it is still running):
 ```
 rm -R src/public
 cd src/
 composer create-project laravel/laravel .
 ```
+
+Now go to [http://localhost:8080](http://localhost:8080) and you should see Laravel running!
 
 Containers created and their ports are as follows:
 
