@@ -49,7 +49,7 @@ Your Laravel application now lives inside of the `src` folder
 - PHP:
   - https://github.com/pardamike/docker-compose-laravel/blob/master/docker-compose.yml#L38
   
- - Docker: 
+- Docker: 
   - https://github.com/pardamike/docker-compose-laravel/blob/master/Dockerfile
 
 #### Ports
