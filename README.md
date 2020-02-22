@@ -35,7 +35,24 @@ Now go to [http://localhost:8080](http://localhost:8080) (or refresh the browser
 
 Your Laravel application now lives inside of the `src` folder
 
-Containers created and their ports are as follows:
+
+## Notes
+
+#### Configurations
+- Nginx:
+  - https://github.com/pardamike/docker-compose-laravel/blob/master/docker-compose.yml#L14
+  - https://github.com/pardamike/docker-compose-laravel/blob/master/nginx/default.conf
+  
+- MySQL (or any other database):
+  - https://github.com/pardamike/docker-compose-laravel/blob/master/docker-compose.yml#L21
+  
+- PHP:
+  - https://github.com/pardamike/docker-compose-laravel/blob/master/docker-compose.yml#L38
+  
+ - Docker: 
+  - https://github.com/pardamike/docker-compose-laravel/blob/master/Dockerfile
+
+#### Ports
 
 - **nginx** - `:8080`
 - **mysql** - `:3306`
